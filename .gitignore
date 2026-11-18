@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment variables (keep .env.example)
+.env
+.env.local
+.env.*.local
+
+# Production builds
+client/dist/
+
+# Logs & OS files
+npm-debug.log*
+yarn-debug.log*
+.DS_Store
+Thumbs.db
+
+# Runtime user uploads (keep .gitkeep and seeded assets)
+server/uploads/*
+!server/uploads/.gitkeep
+!server/uploads/seed/
+
+# Raw uncropped root image
+WhatsApp Image*.jpeg
